@@ -1,0 +1,30 @@
+:root {
+    --white: white;
+    --blue: rgb(0, 108, 250);
+}
+.debug {
+    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.black{
+    background-color: black;
+}
+
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.debug-inner{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
