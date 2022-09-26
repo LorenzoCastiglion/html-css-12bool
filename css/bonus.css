@@ -8,19 +8,16 @@
     width: 350px;
 }
 
-.blue{
-    background-color: blue;
-}
 
-.black{
-    background-color: black;
-}
+
+
 
 .center{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .debug-inner{
@@ -28,3 +25,52 @@
     height: 50px;
     width: 50px;
 }
+
+.color{
+    background-color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+  }
+  
+  @keyframes example {
+    0% {background-color: black;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    75%{background-color: red;}
+    100% {background-color: black;}
+  }
+
+  .color-two{
+    background-color: white;
+    animation-name: blank;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+  }
+
+  @keyframes blank {
+    0% {background-color: white;}
+    25% {background-color: purple;}
+    50% {background-color: goldenrod;}
+    75%{background-color: #9fffcb;}
+    100% {background-color: white;}
+  }
+
+
+  .color-three{
+    background-color: white;
+    animation-name: last;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+  }
+
+  @keyframes last {
+    0% {background-color: #E9C46A;}
+    25% {background-color: #2A9D8F;}
+    50% {background-color: #E76F51;}
+    75%{background-color:  #264653;}
+    100% {background-color: #E9C46A;}
+  }
